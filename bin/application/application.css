@@ -1,0 +1,22 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#paneLogin {
+	-fx-background-color:  #2f2841;
+	-fx-background-radius: 8;
+	-fx-effect: dropshadow(gaussian, #00000056, 10, 0, 0, 0);
+}
+
+#anchorPaneLogin {
+	-fx-background-color: #201b2c;
+}
+
+#btnEntrar {
+	-fx-background-color:  #009eff;
+	-fx-effect: dropshadow(gaussian, #009eff, 8, 0, 0, 0);
+	-fx-cursor: hand;
+}
+
+#btnEntrar:hover {
+	-fx-background-color:  #619abd;
+	-fx-effect: dropshadow(gaussian, #619abd, 8, 0, 0, 0);
+}
